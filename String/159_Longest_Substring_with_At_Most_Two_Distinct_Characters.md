@@ -11,25 +11,30 @@ This is a standard sliding window (two pointers) question. We maintain the left 
 
 #### Code:
 ```python
-from collections import defaultdict
+from typing import List  
+
 class Solution:
-  def lenghtOfLongestSubstringTwoDistinct(self, s: str)->int:
-    n = len(s)
-    if n < 3:
-      # trivial case when the string contains at most 2 characters
-      return n
-    l, r = 0, 0
-    pos = defaultdict(int) # position of the right most position of each char
-    max_len = 2
-    
-    while r < n:
-      if len(pos) < 3:
-        pos[s[r]] = r
-        r += 1
-      if len(pos) == 3:
-        del_idx = min(pos.values())
-        del pos[s[del_idx]]
-        l = del_idx + 1
-      max_len = max(max_len, r-l)
-    return max_len
+  def singleNumber_sum(self, nums: List[int]) -> int:
+    return int((3*sum(set(nums))-sum(nums))/2)
+
+  # k=3, p=1
+  def singleNumber_bit(self, nums: List[int]) -> int:
+    # for ceiling(log_2 3) =  2
+    # initialize 2 counters x1, x2. 
+    x1, x2 = 0, 0
+    for a in nums:
+      x2 ^= x1 & a
+      x1 ^= a
+      mask = ~(x1 & x2) # for binary representation of 3 is 11
+      x1 &= mask
+      x2 &= mask
+    return x1|x2
+  
+  def singleNumber_sol(self, nums: List[int]) -> int:
+    seen_once = 0 # the number that appears once
+    seen_twice = 0 # the number that appers three times
+    for num in nums:
+      seen_once = ~seen_twice & (seen_once ^ num)
+      seen_twice = ~seen_once & (seen_twice ^ num)
+    return seen_once
 ```
