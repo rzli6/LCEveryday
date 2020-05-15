@@ -74,3 +74,16 @@ def intToRoman(self, num: int) -> str:
             result += num_I*'I'
         return result
 ```
+
+After searching for others' solutions, there is a one-line python code proposed
+
+```python
+def intToRoman(self, num: int) -> str:
+    # 1 <= num <= 3999
+    return( ( '', 'M', 'MM', 'MMM')[ int(num/1000)]
+        + ( '', 'C', 'CC', 'CCC', 'CD', 'D', 'DC', 'DCC', 'DCCC', 'CM')[ int(num%1000/100)]
+        + ( '', 'X', 'XX', 'XXX', 'XL', 'L', 'LX', 'LXX', 'LXXX', 'XC')[ int(num%100/10)]
+        + ( '', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX')[ num%10])
+```
+
+ 
