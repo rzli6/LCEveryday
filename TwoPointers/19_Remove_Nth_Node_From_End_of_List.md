@@ -1,6 +1,6 @@
 # 19. Remove Nth Node From End of List
 
-2020/05/13 ZLY
+2020/05/18 ZLY
 
 ### Problem Description
 
