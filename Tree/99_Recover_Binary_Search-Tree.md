@@ -31,7 +31,7 @@ Output: [2,1,4,null,null,3]
 
 ## Note
 
-What the power of in-order!  
+What the power of in-order traversal!  
 Do it again!  
 
 [Detailed Solution](https://leetcode.com/problems/recover-binary-search-tree/discuss/32535/No-Fancy-Algorithm-just-Simple-and-Powerful-In-Order-Traversal)
