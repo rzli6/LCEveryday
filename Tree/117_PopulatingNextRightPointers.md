@@ -1,6 +1,6 @@
 # 117. Populating Next Right Pointers in Each Node II
 
-Author: Zhuofei 5.21
+Author: Zhuofei 5.21  
 Rating: 4.0/5.0
 
 ## Problem
