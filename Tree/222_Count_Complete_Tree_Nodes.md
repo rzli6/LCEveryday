@@ -41,4 +41,4 @@ Drawback: please make full use of concept of complete tree.
 
 ## Note
 
-This problem require a deep understanding to a tree and how to divide and conquer. It's great to do it again.
+This problem requires a deep understanding to a tree and how to divide and conquer. It's great to do it again.
