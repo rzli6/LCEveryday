@@ -16,12 +16,7 @@ Where we solve, summarize and share the inspiring solutions of LC algo questions
   * 违反上述规定发**2 * 参与者人数**等值红包。
 
 ## 每周推荐：
-* 为相互借鉴并加强技术交流。建议大家每周将想推荐的题目发送至微信群中，由负责人整合到至**suggestions.md**文件中。
-* 推荐题目格式：题目名称、链接、类型，原因 (optional)。如：
-  * 名称：Two Sum
-  * 链接：https://leetcode.com/problems/two-sum/
-  * 类型：Array/Hashtable
-  * 原因：常见算法基础
+* 为相互借鉴并加强技术交流。建议大家每周将想推荐的题目直接写到[suggestions.md](suggestions.md)文件中。
 
 
 **祝愿大家在刷题面试之路上一飞冲天！**
