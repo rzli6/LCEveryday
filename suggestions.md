@@ -8,10 +8,10 @@
 * [位运算](#位运算-bit-manipulation)
 
 ## 格式
-为方便大家推荐交流，统一格式如下：
 请将每题放入对应类别当中  
-题目格式:
-#### [编号. 名称](#好题汇总) (难度) - 推荐人
+为方便大家推荐交流，统一格式如下：
+
+#### [编号. 名称](#) (难度) - 推荐人
 * 推荐原因/想说的话
 * ...
 
@@ -24,13 +24,17 @@
 <!-- 树 -->
 ## 树 Tree
 #### [117. Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) (中等) - 老刘 
-* 老刘倾情推荐！！！
+* level view to the binary tree
 * 普通推荐
 
 #### [99. Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) (困难) - 老刘 
-* 老刘倾情推荐！！！
 * 五星推荐！！！
 
+## Priority Queue
+#### [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) (困难) - 老刘
+* Priority Queue
+* Divide and Conquer
+* 4.5/5.0 star 
 
 
 <!-- 动态规划 -->
