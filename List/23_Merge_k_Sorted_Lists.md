@@ -6,7 +6,6 @@
 
 Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
 
-
 ### Algorithm
 
 1. Merge Sort: Based on the idea of stepping, we first merge list with step 1, and increase step by step * 2. Stop merging until step is larger than n.
