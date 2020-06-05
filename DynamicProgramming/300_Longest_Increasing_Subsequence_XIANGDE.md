@@ -1,6 +1,6 @@
 # 300. Longest Increasing Subsequence
 
-2020/06/02 Xiangde Zeng
+2020/06/05 Xiangde Zeng
 
 ### Problem Description
 
