@@ -36,6 +36,12 @@
 * Divide and Conquer
 * 4.5/5.0 star 
 
+## Linked List
+#### [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) (困难，实际并不困难) - 老刘
+* Dummy node
+* Think first and then code, Reverse a lot of nodes togther will confuse you
+* 3.5/5.0 star 
+
 
 <!-- 动态规划 -->
 ## 动态规划 Dynamic Programming 
@@ -43,6 +49,11 @@
 * 经典题目
 * 反向思维
 * 解法优雅
+
+#### [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) (中等) - ZTH
+
+* 常见题目
+* 解题思路
 
 <!-- 字符串 -->
 ## 字符串 String
