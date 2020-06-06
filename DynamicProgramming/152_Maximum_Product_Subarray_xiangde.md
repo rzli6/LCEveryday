@@ -1,6 +1,6 @@
 # 152. Maximum Product Subarray
 
-2020/06/04 Xiangde Zeng
+2020/06/06 Xiangde Zeng
 
 ### Problem Description
 
