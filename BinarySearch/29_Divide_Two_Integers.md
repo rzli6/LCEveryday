@@ -30,10 +30,10 @@ Corner Case: 0? Integer.Max? Integer.Min?
 
 Idea is diviend = a * 2^n * divisor + b * 2^(n-1) * divisor + ...
 
-The way to get a,b... in above equation can be got by binary search.
+The way to get a,b... in above equation is binary search.
 
 ### Binary Manipulation
 
-to reduce the computation of diviend*2
+to reduce the computation of divisor*2
 
 
