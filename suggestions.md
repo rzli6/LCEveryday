@@ -62,6 +62,11 @@
 * 字符串算法基础数据结构
 
 ## 位运算 Bit Manipulation
+
+#### [231. Power of Two](https://leetcode.com/problems/power-of-two/) (简单) - 小李 
+* 数学思想
+* 开拓思路
+
 #### [137. Single Number II](https://leetcode.com/problems/single-number-ii/) (中等) - 小李
 * 位运算经典题目之一
 * [通解](https://leetcode.com/problems/single-number-ii/discuss/43295/Detailed-explanation-and-generalization-of-the-bitwise-operation-method-for-single-numbers)思想惊人
