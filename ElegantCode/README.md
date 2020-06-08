@@ -21,3 +21,7 @@ public int strStr(String haystack, String needle) {
 ## Double Pointer
 Two pointer can start from index 0 to n-1.  
 In some cases, maybe one or two pointers choose another direction from index n-1 to 0 can help improving the performance when we are in actual working environment.  
+
+## Two hash map
+[30. Substring with Concatenation of All Words](https://leetcode.wang/leetCode-30-Substring-with-Concatenation-of-All-Words.html)  
+Hashmap can be one compareable item, HashMap can help us not to consider the **sequence** of string.  
