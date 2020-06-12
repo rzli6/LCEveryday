@@ -24,4 +24,4 @@ In some cases, maybe one or two pointers choose another direction from index n-1
 
 ## Two hash map
 [30. Substring with Concatenation of All Words](https://leetcode.wang/leetCode-30-Substring-with-Concatenation-of-All-Words.html)  
-Hashmap can be one compareable item, HashMap can help us not to consider the **sequence** of string.  
+Hashmap can be one compareable item, HashMap can help us not to consider the **sequence** of string. 
