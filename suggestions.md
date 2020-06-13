@@ -20,6 +20,10 @@
 * 简单的常见面试题，当时错了\~ 呜呜呜\~ 给大家排雷 (●'◡'●)
 * 思维惊艳解法优雅！哟哟哟！！(＾Ｕ＾)ノ~ＹＯ
 
+## Array
+#### [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) (Hard) - 老刘 
+* Good use of double pointer
+* 五星推荐
 
 <!-- 树 -->
 ## 树 Tree
