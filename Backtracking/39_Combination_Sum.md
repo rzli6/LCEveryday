@@ -43,5 +43,3 @@ class Solution:
         self.helper(candidates, target, [], 0, res)      
         return res 
 ```
-
-## Dynamic Programming [TODO]
