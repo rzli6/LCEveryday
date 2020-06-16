@@ -2,6 +2,8 @@
 
 Author: Xiangde Zeng
 
+Author: LIU Zhuofei 2020.6.15  
+
 ## Problem
 Given an array of non-negative integers, you are initially positioned at the first index of the array.
 
@@ -57,3 +59,23 @@ class Solution {
 }
 ```
 
+## Best Solution
+[Source](https://leetcode.com/problems/jump-game-ii/discuss/18014/Concise-O(n)-one-loop-JAVA-solution-based-on-Greedy)  
+
+Comment:  
+This is an implicit bfs solution. i == curEnd means you visited all the items on the current level. Incrementing jumps++ is like incrementing the level you are on. And curEnd = curFarthest is like getting the queue size (level size) for the next level you are traversing.
+
+
+```java
+public int jump(int[] A) {
+	int jumps = 0, curEnd = 0, curFarthest = 0;
+	for (int i = 0; i < A.length - 1; i++) {
+		curFarthest = Math.max(curFarthest, i + A[i]);
+		if (i == curEnd) {
+			jumps++;
+			curEnd = curFarthest;
+		}
+	}
+	return jumps;
+}
+```
