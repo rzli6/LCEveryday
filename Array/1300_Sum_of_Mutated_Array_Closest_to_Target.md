@@ -11,6 +11,8 @@ In case of a tie, return the minimum such integer.
 Notice that the answer is not neccesarilly a number from `arr`.
 
 
+
+
 ### Algorithm
 
 We can find out that the final result is in the range between 0 and `max(arr)`. Therefore, we can just use binary search to get the value.

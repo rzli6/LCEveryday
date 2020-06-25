@@ -12,6 +12,8 @@ The `veganFriendly` filter will be either *true* (meaning you should only includ
 Return the array of restaurant ***IDs*** after filtering, ordered by **rating** from highest to lowest. For restaurants with the same rating, order them by ***id*** from highest to lowest. For simplicity `veganFriendlyi` and `veganFriendly` take value *1* when it is *true*, and *0* when it is *false*.
 
 
+
+
 ### Algorithm
 
 We first filter the restaurants with the criterion and sort them respect to the rating.

@@ -9,6 +9,8 @@ Given an array `arr`. You can choose a set of integers and remove all the occurr
 Return *the minimum size of the set* so that **at least** half of the integers of the array are removed.
 
 
+
+
 ### Algorithm
 
 First, we count the occurences of each number and store the number of occurences in a list. Then we sort the list from large to small. Finally, we just add the number in the list one by one until we reach 1/2 of the total length of the original array.

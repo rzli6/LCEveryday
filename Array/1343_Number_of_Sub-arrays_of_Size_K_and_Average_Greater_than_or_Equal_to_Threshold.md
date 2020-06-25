@@ -9,6 +9,8 @@ Given an array of integers `arr` and two integers `k` and `threshold`.
 Return *the number of sub-arrays* of size `k` and average greater than or equal to `threshold`.
 
 
+
+
 ### Algorithm
 
 First, we calculate the sum of the first subarray. Then everytime we just subtract the head from the sum and also add the tail to get the new sum. If the sum is >= k*threshold, then we add 1 to the result.
