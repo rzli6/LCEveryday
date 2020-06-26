@@ -4,6 +4,8 @@
 
 2020/06/25 ZLY
 
+2020/06/26 ZLY
+
 ### Problem Description
 
 Implement the class `ProductOfNumbers` that supports two methods:
@@ -22,7 +24,7 @@ At any time, the product of any contiguous sequence of numbers will fit into a s
 
 
 
-### Algorithm
+### Algorithm 1
 
 If there exists zero in this k numbers, then directly return 0.
 
@@ -69,3 +71,45 @@ class ProductOfNumbers:
 # obj.add(num)
 # param_2 = obj.getProduct(k)
 ```
+
+
+
+### Algorithm 2
+
+Once a zero appears, then all numbers before it will become meaningless. Therefore every time we see a zero, we can just re-initialize the prefix. And if k is larger than the length of the current prefix, then it means there is a zero in this range, just return 0. Else, calculate it use the prefix.
+
+If there is no zero, then we can use prefix products to get the result (`prefix(n)//prefix(n-k)`)
+
+And the special case is that when a `0` is added, we can not simply calculate prefix product to `0`, we need to replace it with `1`.
+
+In order to check whether there is `0` in the k numbers, we need an extra variable to update the index of the latest `0`.
+
+
+
+### Code
+
+```python
+class ProductOfNumbers:
+
+    def __init__(self):
+        self.prefix = [1]
+
+    def add(self, num: int) -> None:
+        if num:
+            self.prefix.append(self.prefix[-1]*num)
+        else:
+            self.prefix = [1]
+
+    def getProduct(self, k: int) -> int:
+        if k >= len(self.prefix):
+            return 0
+        return self.prefix[-1] // self.prefix[-k-1]
+
+
+
+# Your ProductOfNumbers object will be instantiated and called as such:
+# obj = ProductOfNumbers()
+# obj.add(num)
+# param_2 = obj.getProduct(k)
+```
+
