@@ -46,6 +46,12 @@
 * Think first and then code, Reverse a lot of nodes togther will confuse you
 * 3.5/5.0 star 
 
+## Monotone Stack
+
+[Source](https://www.cnblogs.com/grandyang/p/8887985.html)
+
+[Problem 84 is a good example](https://www.cnblogs.com/boring09/p/4231906.html)  
+
 
 <!-- 动态规划 -->
 ## 动态规划 Dynamic Programming 
